@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e88f709d5341dc9d48fcaf39ac4465, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  GameWalletPubkey: AQg9Cr7YpapTeu9YmfVTz1Rh1NTDCVbwEidqhnNnHRMz
+  SchemePrefix: crowds
+  limited_items:
+  - GameUid: flash_skin
+    Supply: 1000
+    Price: 1
+    Sold: 0
+    tokenSymbol: USDC
+    Mint: HPUmgVx9R5yPRoP1XEcswuwk4Mr4Q5gi5Vch5xJoUmdx
+    MintMetaAddress: EQnxskWGPH8YkFR5yXfZEhgnB8dSLumUVCbcuvBMxxqq
+    IsEnabled: 0
+    PriceMint: 4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU
+  - GameUid: test_2
+    Supply: 10
+    Price: 100
+    Sold: 4
+    tokenSymbol: USDC
+    Mint: 55HvL7qXqnnyXvT16bq4G4bnnbcBH2ECyWXuKgBiRDUq
+    MintMetaAddress: 7f9zVqCVX7KVPnMjW197akZPkRcNHWUwmB7rxSj3rKoy
+    IsEnabled: 0
+    PriceMint: 4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU
+  - GameUid: new_item
+    Supply: 1000
+    Price: 10500
+    Sold: 11
+    tokenSymbol: USDC
+    Mint: 41r8vUjmHuLXvC3VPqkJK9zxcWiFKYz6XtUr2JcFb3Xi
+    MintMetaAddress: 81fmFFpMuRkNJobeaBiuTYTnWxw6nCSBwBpKQqXpLWYH
+    IsEnabled: 0
+    PriceMint: 4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU
